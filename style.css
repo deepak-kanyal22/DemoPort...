@@ -1,0 +1,201 @@
+/* body  */
+body{
+    height: 250vh;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation bar  */
+a{
+    text-decoration: none;
+    color: #0A1128;
+}
+a:hover{
+    color: #1282A2;
+}
+.logo{
+    font-size: 60px;
+    margin-right: 550px;
+}
+.link{
+    margin-left: 70px;
+}
+
+/* intro section  */
+#intro{
+    background-color: #034078;
+    color: white;
+    border-radius: 10px;
+    height: 360px;
+    padding-left: 20px;
+    padding-top: 50px;
+
+}
+#intro img{
+    height: 290px;
+    display: inline-block;
+    position: relative;
+    left: 1050px;
+    bottom: 160px;
+    border: 10px white solid;
+    border-radius: 50%;
+}
+#intro h1{
+    font-size: 50px;
+}
+#intro p{
+    font-size: 20px;
+}
+.write{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* buttons in intro section start  */
+button{
+    border-radius: 10px;
+    height: 50px;
+    width: 220px;
+    position: relative;
+    bottom: 220px;
+    left: 20px;
+}
+#res{
+    background-color: #4a91ca;
+    color: white;
+    border-color: #4a91ca;
+
+}
+#res:hover{
+    background-color: white;
+    color: #4a91ca;
+}
+#pro{
+    background-color: #4a91ca;
+    color: white;
+    border-color: #4a91ca;
+    margin-left: 40px;
+}
+#pro:hover{
+    background-color: white;
+    color: #4a91ca;
+}
+
+/* end  */
+
+/* About section  */
+
+#about {
+    margin: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Projects section  */
+
+#projects{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#projects img{
+    position: relative;
+    bottom: 50px;
+}
+
+.project div{
+    background-color: #1282A2;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+}
+.project div:hover{
+    background-color: white;
+    color: #1282A2;
+}
+.project div h2{
+    padding-left: 60px;
+    padding-top: 25%;
+}
+
+/* resume */
+
+#resume{
+    padding-left: 20px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h4{
+    display: inline-block;
+    background-color: #1282A2;
+    color: white;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+h4:hover{
+    background-color: white;
+    color: #1282A2;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+#resume h5,p{
+    display: inline-block;
+    
+}
+
+#t{
+    margin-left: 60px;
+}
+
+#resume h2{
+    background-color: #034078;
+    color: white;
+
+}
+
+/* resume end  */
+
+/* contact */
+
+input{
+    height: 50px;
+    width: 200px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+textarea{
+    height: 50px;
+    width: 515px;
+    margin-left: 100px;
+}
+
+#contact button{
+    width: 515px;
+    margin-left: 80px;
+    position: relative;
+    top: 60px;
+    background-color: rgb(15, 137, 15);
+    color: white;
+    border: none;
+}
+
+#contact button:hover{
+    background-color: rgb(12, 171, 52);
+}
+
+#c{
+    padding-left: 20px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
